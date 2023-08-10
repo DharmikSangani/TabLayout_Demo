@@ -6,12 +6,75 @@
     tools:context=".Fragment_Two">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Fragment Two"
-        android:textSize="50sp"
-        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MCR 92(89)"
+            android:textSize="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OVL 186-5(100)"
+            android:textSize="35dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       The first game was a close one. The second game
+was one-way traffic. The Invincibles got a good
+score, a hefty one, and defended it so well. Spencer
+Johnson is one name you will hear more often as
+you go along the tourney. The Originals need to
+bounce back after this hammering. That is it for
+the day. We will be back soon with more cricketing
+action."
+            android:textSize="18dp"
+            android:layout_marginTop="120dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Spencer Johnson:   To be here is awesome. I am just
+enjoying myself.I have had my share of injuries. 1
+am enjoying my game. We had a lot of meetings
+with Moody. I feel at home."
+            android:textSize="18dp"
+            android:layout_marginTop="300dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Heinrich Klaasen | Hero of the Match:    Once you got
+a hang of it, was good to bat on. The wicket was a
+lot more drier. We wanted to bat first here. Credit
+must go to Spencer. I don't know why I am standing
+here (smiles). I hope the wicket stays like this"
+            android:textSize="18dp"
+            android:layout_marginTop="400dp"/>
+
+    </LinearLayout>
 
 
 </FrameLayout>

@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
         SwipeAdapter swipeAdapter=new SwipeAdapter(getSupportFragmentManager());
         viewPager.setAdapter(swipeAdapter);
 
-        swipeAdapter.addFragment(new Fragment_One(),"TAB-1");
-        swipeAdapter.addFragment(new Fragment_Two(),"TAB-2");
-        swipeAdapter.addFragment(new Fragment_Three(),"TAB-3");
+        swipeAdapter.addFragment(new Fragment_One(),"INFO");
+        swipeAdapter.addFragment(new Fragment_Two(),"LIVE");
+        swipeAdapter.addFragment(new Fragment_Three(),"SCORECARD");
         tabLayout.setupWithViewPager(viewPager);
 
     }

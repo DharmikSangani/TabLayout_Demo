@@ -3,15 +3,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment_One">
+    tools:context=".Fragment_One"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Fragment One"
-        android:textSize="50sp"
-        android:gravity="center"/>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   INFO"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Match"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13th Match"
+            android:textSize="23dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Series"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="90dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Hunderd Mens Competition 20023"
+            android:textSize="23dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="90dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="160dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wed,Aug 09"
+            android:textSize="23dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="160dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:00 pm, Your Time"
+            android:textSize="23dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="200dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue"
+            android:textSize="23dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="240dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kennington Oval, London"
+            android:textSize="23dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="240dp"/>
+    </LinearLayout>
 
 </FrameLayout>
